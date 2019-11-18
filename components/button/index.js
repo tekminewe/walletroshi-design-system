@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { Color } from '../color';
+import { Text } from '../typography';
 
 const getColors = (type) => {
   switch (type) {
@@ -15,13 +16,11 @@ const getColors = (type) => {
 
 const StyledButton = styled.button`
   background-color: ${({ backgroundColor}) => backgroundColor};
-  border-radius: 5px;
+  border-radius: 8px;
   border-width: 0;
   color: white;
   cursor: pointer;
-  font-weight: bold;
-  padding: 16px 24px;
-  width: 100%;
+  padding: 0px 16px;
 
   :focus {
     outline: none !important;
@@ -35,7 +34,7 @@ const Button = ({ children, onClick, type }) => {
       backgroundColor={backgroundColor}
       onClick={onClick}
     >
-      {children}
+      <Text>{children}</Text>
     </StyledButton>
   );
 };
