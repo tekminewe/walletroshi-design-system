@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy": "storybook-to-ghpages"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@storybook/storybook-deployer": "^2.8.1",
     "polished": "^3.4.2",
     "prop-types": "^15.7.2",
     "styled-components": "^4.4.1"
