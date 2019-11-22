@@ -6,17 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s public",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@storybook/storybook-deployer": "^2.8.1",
+    "polished": "^3.4.2",
+    "prop-types": "^15.7.2",
+    "styled-components": "^4.4.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@storybook/addon-actions": "^5.2.6",
+    "@storybook/addon-knobs": "^5.2.6",
     "@storybook/addon-links": "^5.2.6",
+    "@storybook/addon-storysource": "^5.2.6",
     "@storybook/addons": "^5.2.6",
     "@storybook/react": "^5.2.6",
-    "babel-loader": "^8.0.6"
+    "babel-loader": "^8.0.6",
+    "prettier": "^1.19.1"
   }
 }
