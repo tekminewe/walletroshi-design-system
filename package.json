@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -s public",
-    "deploy-storybook": "storybook-to-ghpages"
+    "develop": "start-storybook -p 6006",
+    "build": "build-storybook -s public --docs",
+    "deploy": "storybook-to-ghpages"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@storybook/addon-actions": "^5.2.6",
+    "@storybook/addon-docs": "^5.2.6",
     "@storybook/addon-knobs": "^5.2.6",
     "@storybook/addon-links": "^5.2.6",
     "@storybook/addon-storysource": "^5.2.6",
