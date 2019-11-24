@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { H1, Text } from '../components';
+import { H1, Text } from './index';
 
 export default {
   title: 'Typography',
