@@ -10,14 +10,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - name: Skip CI
+        uses: veggiemonk/skip-commit@master
+        env:
+          COMMIT_FILTER: skip ci
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Prepare repository
+        run: |
+          git checkout "${GITHUB_REF:11}" --
+          git remote rm origin
+          git remote add origin "https://$GH_TOKEN@github.com/tekminewe/walletroshi-design-system"
+          git fetch origin
+          git branch --set-upstream-to origin/master
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Install NPM packages
         run: yarn install
       - name: Build dist
-        run: yarn dist
+        run: yarn build
       - name: Deploy documentation
         run: yarn deploy --ci
         env:
