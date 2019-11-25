@@ -39,7 +39,7 @@
   },
   "babel": {
     "presets": [
-      "react-app"
+      "@babel/preset-react"
     ],
     "plugins": [
       "@babel/plugin-transform-modules-commonjs"
