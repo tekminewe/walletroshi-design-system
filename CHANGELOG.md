@@ -1,3 +1,16 @@
+# v0.2.2 (Mon Nov 25 2019)
+
+#### 🐛  Bug Fix
+
+- Fix babel error [#8](https://github.com/tekminewe/walletroshi-design-system/pull/8) ([@tekminewe](https://github.com/tekminewe))
+- Add babel/runtime as deps [#7](https://github.com/tekminewe/walletroshi-design-system/pull/7) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.2.1 (Mon Nov 25 2019)
 
 #### 🐛  Bug Fix
