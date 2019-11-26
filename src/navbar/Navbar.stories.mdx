@@ -1,0 +1,19 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import Navbar from './Navbar';
+import Nav from './Nav';
+
+<Meta title="Wallet Roshi Design System | Navbar" component={Navbar} />
+
+# Navbar
+
+<Preview withToolbar>
+  <Story name="standard">
+    <Navbar>
+      <Navbar.Title>Wallet Roshi</Navbar.Title>
+      <Nav>
+        <Navbar.Item>Sign up</Navbar.Item>
+        <Navbar.Item>Log in</Navbar.Item>
+      </Nav>
+    </Navbar>
+  </Story>
+</Preview>
