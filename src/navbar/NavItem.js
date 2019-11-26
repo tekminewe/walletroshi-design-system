@@ -13,9 +13,9 @@ const StyledNavItem = styled.a`
   }
 `
 
-const NavItem = ({ children }) => {
+const NavItem = ({ children, className }) => {
   return (
-    <StyledNavItem>
+    <StyledNavItem className={className}>
       <a>
         {children}
       </a>

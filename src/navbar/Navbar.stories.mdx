@@ -1,4 +1,4 @@
-import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks';
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import Navbar from './Navbar';
 import Nav from './Nav';
 
@@ -9,6 +9,7 @@ import Nav from './Nav';
 <Preview withToolbar>
   <Story name="standard">
     <Navbar>
+      <Navbar.Title>Wallet Roshi</Navbar.Title>
       <Nav>
         <Navbar.Item>Sign up</Navbar.Item>
         <Navbar.Item>Log in</Navbar.Item>
