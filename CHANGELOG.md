@@ -1,3 +1,15 @@
+# v0.2.4 (Tue Nov 26 2019)
+
+#### 🐛  Bug Fix
+
+- Add navbar [#9](https://github.com/tekminewe/walletroshi-design-system/pull/9) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.2.2 (Mon Nov 25 2019)
 
 #### 🐛  Bug Fix
