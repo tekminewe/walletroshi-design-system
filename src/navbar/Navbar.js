@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import NavItem from './NavItem';
 import NavTitle from './NavTitle';
+import Nav from './Nav';
 
 const StyledNavbar = styled.nav`
   margin: 0;
@@ -24,5 +25,6 @@ const Navbar = ({ children }) => {
 
 Navbar.Item = NavItem;
 Navbar.Title = NavTitle;
+Navbar.Nav = Nav;
 
 export default Navbar;
