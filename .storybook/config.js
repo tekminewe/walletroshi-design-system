@@ -1,4 +1,13 @@
-import { configure } from '@storybook/react';
+import React from 'react';
+import { configure, addDecorator } from '@storybook/react';
+import { GlobalStyle } from '../src/style/global';
+
+addDecorator(story => (
+  <>
+    <GlobalStyle />
+    {story()}
+  </>
+));
 
 // automatically import all files ending in *.stories.js
 configure([
