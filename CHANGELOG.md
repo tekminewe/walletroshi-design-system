@@ -1,3 +1,15 @@
+# v0.2.7 (Wed Nov 27 2019)
+
+#### 🐛  Bug Fix
+
+- Export global style [#13](https://github.com/tekminewe/walletroshi-design-system/pull/13) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.2.6 (Wed Nov 27 2019)
 
 #### 🐛  Bug Fix
