@@ -15,7 +15,7 @@ const StyledButton = styled.button`
   border: ${({ color, outline }) => outline ? `1px solid ${getColors(color)}` : '0'};
   color: ${({ color, outline }) => outline ? getColors(color) : 'white'};
   cursor: pointer;
-  padding: 0px 1em;
+  padding: 0px 2em;
 
   :focus {
     outline: none !important;
