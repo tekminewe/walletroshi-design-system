@@ -13,12 +13,12 @@ const StyledNavItem = styled.a`
   }
 `
 
-const NavItem = ({ children, ...props }) => {
+const NavItem = ({ children, ...props }, ref) => {
   return (
-    <StyledNavItem {...props}>
+    <StyledNavItem ref={ref} {...props}>
       {children}
     </StyledNavItem>
   )
 }
 
-export default NavItem;
+export default React.forwardRef(NavItem);
