@@ -13,10 +13,19 @@ import Button from './Button';
 Buttons for user to interact with
 
 <Preview withToolbar>
-  <Story name="standard">
+  <Story name="Example" parameters={{ decorators: [withKnobs] }}>
     <Button
       onClick={action('clicked')}
-      color={select('Type', ['primary', 'secondary'])}
+      color={select('Type', [
+        'primary',
+        'secondary',
+        'success',
+        'danger',
+        'warning',
+        'info',
+        'light',
+        'dark',
+      ])}
     >
       Button
     </Button>
@@ -25,36 +34,120 @@ Buttons for user to interact with
 
 <Props of={Button} />
 
-### Colors
+### Standard Buttons
 
-6 different colors
-
-<Story name="colors">
-  <div>
+<Story name="Standard">
+  <div className="horizontal-box">
     <Button
       onClick={action('clicked')}
       color="primary"
     >
-      Primary button
+      Primary
     </Button>
     <Button
       onClick={action('clicked')}
       color="secondary"
     >
-      Secondary button
+      Secondary
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="success"
+    >
+      Success
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="danger"
+    >
+      Danger
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="warning"
+    >
+      Warning
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="info"
+    >
+      Info
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="light"
+    >
+      Light
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="dark"
+    >
+      Dark
     </Button>
   </div>
 </Story>
 
-### Playground
+### Outline Buttons
 
-Experiment with this story with Knobs addon in Canvas mode.
-
-<Story name="knobs" parameters={{ decorators: [withKnobs] }}>
-  <Button
-    onClick={action('clicked')}
-    color={select('Type', ['primary', 'secondary'])}
-  >
-    Playground
-  </Button>
+<Story name="Outline">
+  <div className="horizontal-box">
+    <Button
+      onClick={action('clicked')}
+      color="primary"
+      outline
+    >
+      Primary
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="secondary"
+      outline
+    >
+      Secondary
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="success"
+      outline
+    >
+      Success
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="danger"
+      outline
+    >
+      Danger
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="warning"
+      outline
+    >
+      Warning
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="info"
+      outline
+    >
+      Info
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="light"
+      outline
+    >
+      Light
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="dark"
+      outline
+    >
+      Dark
+    </Button>
+  </div>
 </Story>
