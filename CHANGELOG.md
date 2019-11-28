@@ -1,3 +1,15 @@
+# v0.2.9 (Thu Nov 28 2019)
+
+#### 🐛  Bug Fix
+
+- Fix Button and Navbar.Item interaction [#17](https://github.com/tekminewe/walletroshi-design-system/pull/17) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.2.8 (Thu Nov 28 2019)
 
 #### 🐛  Bug Fix
