@@ -1,6 +1,6 @@
 import React from 'react';
 import { configure, addDecorator } from '@storybook/react';
-import { GlobalStyle } from '../src/style/global';
+import { GlobalStyle } from '../src/style';
 
 addDecorator(story => (
   <>
