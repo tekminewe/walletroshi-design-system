@@ -1,3 +1,17 @@
+# v0.2.8 (Thu Nov 28 2019)
+
+#### 🐛  Bug Fix
+
+- Add outline button [#16](https://github.com/tekminewe/walletroshi-design-system/pull/16) ([@tekminewe](https://github.com/tekminewe))
+- Fix config error in storybook preview [#15](https://github.com/tekminewe/walletroshi-design-system/pull/15) ([@tekminewe](https://github.com/tekminewe))
+- Fix style is not found [#14](https://github.com/tekminewe/walletroshi-design-system/pull/14) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.2.7 (Wed Nov 27 2019)
 
 #### 🐛  Bug Fix
