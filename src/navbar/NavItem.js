@@ -13,12 +13,10 @@ const StyledNavItem = styled.a`
   }
 `
 
-const NavItem = ({ children, className }) => {
+const NavItem = ({ children, ...props }) => {
   return (
-    <StyledNavItem className={className}>
-      <a>
-        {children}
-      </a>
+    <StyledNavItem {...props}>
+      {children}
     </StyledNavItem>
   )
 }
