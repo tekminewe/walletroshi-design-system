@@ -25,12 +25,10 @@ const StyledButton = styled.button`
 /**
 - Normal button is a button with full color background
 **/
-const Button = ({ children, onClick, color, outline }) => {
+const Button = ({ children, ...props }) => {
   return (
     <StyledButton
-      color={color}
-      outline={outline}
-      onClick={onClick}
+      {...props}
     >
       <Text>{children}</Text>
     </StyledButton>
@@ -64,7 +62,7 @@ Button.propTypes = {
     'muted',
   ]),
 
-  outline: PropTypes.boolean,
+  outline: PropTypes.bool,
 }
 
 export default Button;

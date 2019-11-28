@@ -13,7 +13,7 @@ import Button from './Button';
 Buttons for user to interact with
 
 <Preview withToolbar>
-  <Story name="Example" parameters={{ decorators: [withKnobs] }}>
+  <Story name="Example" decorators={[withKnobs]}>
     <Button
       onClick={action('clicked')}
       color={select('Type', [
