@@ -6,22 +6,16 @@ import { Color } from '../color';
 import { Text } from '../typography';
 
 const getColors = (color) => {
-  switch (color) {
-    case 'secondary':
-      return Color.secondary;
-
-    default:
-      return Color.primary;
-  }
+  return Color[color];
 }
 
 const StyledButton = styled.button`
   background-color: ${({ backgroundColor}) => backgroundColor};
-  border-radius: 8px;
+  border-radius: 1em;
   border-width: 0;
   color: white;
   cursor: pointer;
-  padding: 0px 16px;
+  padding: 0px 1em;
 
   :focus {
     outline: none !important;
@@ -31,7 +25,7 @@ const StyledButton = styled.button`
 /**
 - Normal button is a button with full color background
 **/
-const Button = ({ children, onClick, color }) => {
+const Button = ({ children, onClick, color, outline }) => {
   const backgroundColor = getColors(color);
   return (
     <StyledButton
@@ -60,7 +54,16 @@ Button.propTypes = {
   color: PropTypes.oneOf([
     'primary',
     'secondary',
-  ])
+    'success',
+    'danger',
+    'warning',
+    'info',
+    'light',
+    'dark',
+    'muted',
+  ]),
+
+  outline: PropTypes.boolean,
 }
 
 export default Button;
