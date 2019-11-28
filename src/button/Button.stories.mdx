@@ -13,10 +13,19 @@ import Button from './Button';
 Buttons for user to interact with
 
 <Preview withToolbar>
-  <Story name="standard">
+  <Story name="Example" parameters={{ decorators: [withKnobs] }}>
     <Button
       onClick={action('clicked')}
-      color={select('Type', ['primary', 'secondary'])}
+      color={select('Type', [
+        'primary',
+        'secondary',
+        'success',
+        'danger',
+        'warning',
+        'info',
+        'light',
+        'dark',
+      ])}
     >
       Button
     </Button>
@@ -27,7 +36,7 @@ Buttons for user to interact with
 
 ### Standard Buttons
 
-<Story name="colors">
+<Story name="Standard">
   <div className="horizontal-box">
     <Button
       onClick={action('clicked')}
@@ -77,24 +86,68 @@ Buttons for user to interact with
     >
       Dark
     </Button>
-    <Button
-      onClick={action('clicked')}
-      color="muted"
-    >
-      Muted
-    </Button>
   </div>
 </Story>
 
-### Playground
+### Outline Buttons
 
-Experiment with this story with Knobs addon in Canvas mode.
-
-<Story name="knobs" parameters={{ decorators: [withKnobs] }}>
-  <Button
-    onClick={action('clicked')}
-    color={select('Type', ['primary', 'secondary'])}
-  >
-    Playground
-  </Button>
+<Story name="Outline">
+  <div className="horizontal-box">
+    <Button
+      onClick={action('clicked')}
+      color="primary"
+      outline
+    >
+      Primary
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="secondary"
+      outline
+    >
+      Secondary
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="success"
+      outline
+    >
+      Success
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="danger"
+      outline
+    >
+      Danger
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="warning"
+      outline
+    >
+      Warning
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="info"
+      outline
+    >
+      Info
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="light"
+      outline
+    >
+      Light
+    </Button>
+    <Button
+      onClick={action('clicked')}
+      color="dark"
+      outline
+    >
+      Dark
+    </Button>
+  </div>
 </Story>

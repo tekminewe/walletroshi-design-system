@@ -7,5 +7,4 @@ export const Color = {
   info: '#00b0ff',
   light: '#e0e0e0',
   dark: '#424242',
-  muted: '#757575',
 }

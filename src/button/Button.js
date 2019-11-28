@@ -10,10 +10,10 @@ const getColors = (color) => {
 }
 
 const StyledButton = styled.button`
-  background-color: ${({ backgroundColor}) => backgroundColor};
+  background-color: ${({ color, outline }) => outline ? 'white' : getColors(color)};
   border-radius: 1em;
-  border-width: 0;
-  color: white;
+  border: ${({ color, outline }) => outline ? `1px solid ${getColors(color)}` : '0'};
+  color: ${({ color, outline }) => outline ? getColors(color) : 'white'};
   cursor: pointer;
   padding: 0px 1em;
 
@@ -26,10 +26,10 @@ const StyledButton = styled.button`
 - Normal button is a button with full color background
 **/
 const Button = ({ children, onClick, color, outline }) => {
-  const backgroundColor = getColors(color);
   return (
     <StyledButton
-      backgroundColor={backgroundColor}
+      color={color}
+      outline={outline}
       onClick={onClick}
     >
       <Text>{children}</Text>
@@ -40,6 +40,7 @@ const Button = ({ children, onClick, color, outline }) => {
 Button.defaultProps = {
   color: 'primary',
   onClick: null,
+  outline: false,
 }
 
 Button.propTypes = {
