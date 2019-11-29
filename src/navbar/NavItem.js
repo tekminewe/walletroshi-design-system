@@ -7,6 +7,7 @@ const StyledNavItem = styled.a`
   display: flex;
   align-items: center;
   padding: 0 1rem;
+  font-size: 16px;
 
   :hover {
     border-bottom: 1px solid black;

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 import { Color } from '../color';
 import { Text } from '../typography';
@@ -15,16 +16,19 @@ const StyledButton = styled.button`
   border: ${({ color, outline }) => outline ? `1px solid ${getColors(color)}` : '0'};
   color: ${({ color, outline }) => outline ? getColors(color) : 'white'};
   cursor: pointer;
-  padding: 0px 1em;
+  padding: 0px 2em;
+  transition: 0.5s;
 
   :focus {
     outline: none !important;
   }
+
+  :hover {
+    background-color: ${({ color, outline }) => outline ? getColors(color) : shade(0.2, getColors(color))};
+    color: white;
+  }
 `
 
-/**
-- Normal button is a button with full color background
-**/
 const Button = ({ children, ...props }) => {
   return (
     <StyledButton
@@ -59,7 +63,6 @@ Button.propTypes = {
     'info',
     'light',
     'dark',
-    'muted',
   ]),
 
   outline: PropTypes.bool,
