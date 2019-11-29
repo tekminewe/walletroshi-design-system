@@ -1,3 +1,20 @@
+# v0.2.10 (Fri Nov 29 2019)
+
+#### 🐛  Bug Fix
+
+- Refine button style and add hover animation [#19](https://github.com/tekminewe/walletroshi-design-system/pull/19) ([@tekminewe](https://github.com/tekminewe))
+- Forward ref for NavItem [#18](https://github.com/tekminewe/walletroshi-design-system/pull/18) ([@tekminewe](https://github.com/tekminewe))
+
+#### ⚠️  Pushed to master
+
+- Move styled components to peer dependencies  ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.2.9 (Thu Nov 28 2019)
 
 #### 🐛  Bug Fix
