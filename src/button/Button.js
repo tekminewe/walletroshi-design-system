@@ -16,9 +16,15 @@ const StyledButton = styled.button`
   color: ${({ color, outline }) => outline ? getColors(color) : 'white'};
   cursor: pointer;
   padding: 0px 2em;
+  transition: 0.5s;
 
   :focus {
     outline: none !important;
+  }
+
+  :hover {
+    background-color: ${({ color }) => getColors(color)};
+    color: white;
   }
 `
 
@@ -59,7 +65,6 @@ Button.propTypes = {
     'info',
     'light',
     'dark',
-    'muted',
   ]),
 
   outline: PropTypes.bool,
