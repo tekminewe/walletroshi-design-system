@@ -1,3 +1,18 @@
+# v0.3.1 (Mon Dec 02 2019)
+
+#### 🐛  Bug Fix
+
+- Use Quicksand font [#25](https://github.com/tekminewe/walletroshi-design-system/pull/25) ([@tekminewe](https://github.com/tekminewe))
+- Add all typography [#24](https://github.com/tekminewe/walletroshi-design-system/pull/24) ([@tekminewe](https://github.com/tekminewe))
+- Pass props to `Center` component [#23](https://github.com/tekminewe/walletroshi-design-system/pull/23) ([@tekminewe](https://github.com/tekminewe))
+- Use secondary color for Ellipsis [#22](https://github.com/tekminewe/walletroshi-design-system/pull/22) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.0 (Mon Dec 02 2019)
 
 #### 🚀  Enhancement
