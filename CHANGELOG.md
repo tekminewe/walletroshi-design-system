@@ -1,3 +1,19 @@
+# v0.2.11 (Mon Dec 02 2019)
+
+#### 🐛  Bug Fix
+
+- Set body margin and padding to 0 [#20](https://github.com/tekminewe/walletroshi-design-system/pull/20) ([@tekminewe](https://github.com/tekminewe))
+
+#### ⚠️  Pushed to master
+
+- Add Ellipsis  ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.2.10 (Fri Nov 29 2019)
 
 #### 🐛  Bug Fix
