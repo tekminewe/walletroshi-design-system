@@ -7,8 +7,8 @@ const StyledCenter = styled.div`
   justify-content: center;
 `
 
-const Center = ({ children }) => (
-  <StyledCenter>
+const Center = ({ children, ...props }) => (
+  <StyledCenter {...props}>
     {children}
   </StyledCenter>
 );
