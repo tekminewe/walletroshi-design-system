@@ -5,4 +5,10 @@ export const StorybookStyle = createGlobalStyle`
     display: flex;
     justify-content: space-between;
   }
+
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
