@@ -1,3 +1,15 @@
+# v0.3.0 (Mon Dec 02 2019)
+
+#### 🚀  Enhancement
+
+- Add <Center /> layout component [#21](https://github.com/tekminewe/walletroshi-design-system/pull/21) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.2.11 (Mon Dec 02 2019)
 
 #### 🐛  Bug Fix
