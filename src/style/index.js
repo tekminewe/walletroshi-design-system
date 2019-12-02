@@ -1,11 +1,9 @@
 import { createGlobalStyle, css } from 'styled-components';
 
-const bodyStyles = css`
-  font-family: 'Abel', sans-serif;
-`;
-
 export const GlobalStyle = createGlobalStyle`
   body {
-    ${bodyStyles}
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+    padding: 0;
   }
 `;
