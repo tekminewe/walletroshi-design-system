@@ -1,3 +1,16 @@
+# v0.3.2 (Tue Dec 03 2019)
+
+#### 🐛  Bug Fix
+
+- Set files to "dist" in package.json [#27](https://github.com/tekminewe/walletroshi-design-system/pull/27) ([@tekminewe](https://github.com/tekminewe))
+- Add Modal, Card, Row and Column [#26](https://github.com/tekminewe/walletroshi-design-system/pull/26) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.1 (Mon Dec 02 2019)
 
 #### 🐛  Bug Fix
