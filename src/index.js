@@ -5,3 +5,5 @@ export * from './navbar';
 export * from './style';
 export * from './loading';
 export * from './layout';
+export * from './modal';
+export * from './card';
