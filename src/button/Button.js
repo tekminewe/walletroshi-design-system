@@ -11,12 +11,15 @@ const getColors = (color) => {
 }
 
 const StyledButton = styled.button`
+  display: flex;
+  flex: 1;
+  justify-content: center;
   background-color: ${({ color, outline }) => outline ? 'white' : getColors(color)};
-  border-radius: 1em;
+  border-radius: 0.5rem;
   border: ${({ color, outline }) => outline ? `1px solid ${getColors(color)}` : '0'};
   color: ${({ color, outline }) => outline ? getColors(color) : 'white'};
   cursor: pointer;
-  padding: 0px 2em;
+  padding: 0px 2rem;
   transition: 0.5s;
 
   :focus {
@@ -29,10 +32,11 @@ const StyledButton = styled.button`
   }
 `
 
-const Button = ({ children, ...props }) => {
+const Button = ({ children, variant, ...props }) => {
   return (
     <StyledButton
       {...props}
+      outline={variant === 'outline'}
     >
       <Text>{children}</Text>
     </StyledButton>
@@ -42,17 +46,17 @@ const Button = ({ children, ...props }) => {
 Button.defaultProps = {
   color: 'primary',
   onClick: null,
-  outline: false,
+  variant: 'standard',
 }
 
 Button.propTypes = {
   /**
-    A callback function that will be called when the button is pressed
+   * A callback function that will be called when the button is pressed
    */
   onClick: PropTypes.func,
 
   /**
-   Color of the button
+   * Color of the button
    */
   color: PropTypes.oneOf([
     'primary',
@@ -65,7 +69,10 @@ Button.propTypes = {
     'dark',
   ]),
 
-  outline: PropTypes.bool,
+  /**
+   * Style of the button
+   */
+  variant: PropTypes.oneOf(['standard', 'outline']),
 }
 
 export default Button;
