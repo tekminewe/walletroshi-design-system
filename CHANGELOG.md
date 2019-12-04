@@ -1,3 +1,15 @@
+# v0.3.3 (Wed Dec 04 2019)
+
+#### 🐛  Bug Fix
+
+- Add Form, Input and Spacer [#28](https://github.com/tekminewe/walletroshi-design-system/pull/28) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.2 (Tue Dec 03 2019)
 
 #### 🐛  Bug Fix
