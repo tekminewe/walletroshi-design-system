@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Content from './Content';
+
 const StyledModal = styled.div`
   display: ${({ visible }) => visible ? 'block' : 'none'};
   position: fixed;
@@ -19,5 +21,7 @@ const Modal = ({ children, ...props}) => (
     {children}
   </StyledModal>
 )
+
+Modal.Content = Content;
 
 export default Modal;

@@ -10,15 +10,15 @@ import { Card } from '../card';
 
 <Preview withToolbar>
   <Story name="Example" decorators={[withKnobs]}>
-    <div>
-      <Modal visible={select('Type', [
-        true,
-        false,
-      ])}>
+    <Modal visible={select('Type', [
+      true,
+      false,
+    ])}>
+      <Modal.Content>
         <Card>
           <p>Good</p>
         </Card>
-      </Modal>
-    </div>
+      </Modal.Content>
+    </Modal>
   </Story>
 </Preview>
