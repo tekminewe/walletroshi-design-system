@@ -1,3 +1,15 @@
+# v0.3.5 (Thu Dec 05 2019)
+
+#### 🐛  Bug Fix
+
+- Add Modal.Content [#30](https://github.com/tekminewe/walletroshi-design-system/pull/30) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.4 (Thu Dec 05 2019)
 
 #### 🐛  Bug Fix
