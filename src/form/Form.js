@@ -1,13 +1,26 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import FormHeader from './FormHeader';
 
-const Form = ({ children, title, subtitle }) => (
-  <div>
+const Form = ({ children, title, subtitle, ...props }) => (
+  <form {...props}>
     <FormHeader title={title} subtitle={subtitle} />
     {children}
-  </div>
+  </form>
 );
+
+Form.propTypes = {
+  /**
+   * Title of the form
+   */
+  title: PropTypes.string,
+
+  /**
+   * Subtitle of the form
+   */
+  subtitle: PropTypes.string,
+}
 
 Form.Header = FormHeader;
 

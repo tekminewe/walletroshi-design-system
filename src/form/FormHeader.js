@@ -6,8 +6,8 @@ import Text from '../typography/Text';
 
 const FormHeader = ({ title, subtitle }) => (
   <>
-    <H3>{title}</H3>
-    <Text>{subtitle}</Text>
+    {title && (<H3>{title}</H3>)}
+    {subtitle && (<Text>{subtitle}</Text>)}
   </>
 )
 
@@ -15,12 +15,12 @@ FormHeader.propTypes = {
   /**
    * Title of the form
    */
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 
   /**
    * Subtitle of the form
    */
-  subtitle: PropTypes.string.isRequired,
+  subtitle: PropTypes.string,
 }
 
 export default FormHeader;
