@@ -1,3 +1,15 @@
+# v0.3.7 (Sat Dec 07 2019)
+
+#### 🐛  Bug Fix
+
+- Add `error` props and highlight color to  Input [#32](https://github.com/tekminewe/walletroshi-design-system/pull/32) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.6 (Sat Dec 07 2019)
 
 #### 🐛  Bug Fix
