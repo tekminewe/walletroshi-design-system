@@ -20,7 +20,7 @@ Text input that allow user to insert their value
   <Story name="Input">
     <Card>
       <Form
-        title="Login"
+        title="Sign in"
         subtitle="Welcome to Wallet Roshi"
       >
         <Input placeholder="Email address" name="email" type="email" required />
@@ -28,9 +28,13 @@ Text input that allow user to insert their value
         <Input placeholder="Password" name="password" type="password" required />
         <Spacer />
         <div className="full-width">
-          <Button type="submit">Log in</Button>
+          <Button type="submit">Sign in</Button>
         </div>
       </Form>
     </Card>
   </Story>
 </Preview>
+
+<Story name="Error">
+  <Input placeholder="Email address" name="email" type="email" required error="Email address is required" />
+</Story>
