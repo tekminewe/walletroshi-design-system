@@ -5,6 +5,7 @@ import { shade } from 'polished';
 
 import { getColor } from '../color';
 import { Text } from '../typography';
+import { Ellipsis } from '../loading';
 
 const StyledButton = styled.button`
   display: flex;
@@ -34,7 +35,11 @@ const StyledButton = styled.button`
   }
 `
 
-const Button = ({ children, variant, color, ...props }) => {
+const StyledEllipsis = styled(Ellipsis)`
+  color: white;
+`
+
+const Button = ({ children, variant, color, loading, ...props }) => {
   const isOutline = variant === 'outline';
 
   return (
@@ -43,7 +48,11 @@ const Button = ({ children, variant, color, ...props }) => {
       color={color}
       outline={isOutline}
     >
-      <Text>{children}</Text>
+      {loading ? (
+        <StyledEllipsis color={isOutline ? getColor(color) : 'white'} size="small" />
+      ) : (
+        <Text>{children}</Text>
+      )}
     </StyledButton>
   );
 };
@@ -63,21 +72,17 @@ Button.propTypes = {
   /**
    * Color of the button
    */
-  color: PropTypes.oneOf([
-    'primary',
-    'secondary',
-    'success',
-    'danger',
-    'warning',
-    'info',
-    'light',
-    'dark',
-  ]),
+  color: PropTypes.string,
 
   /**
    * Style of the button
    */
   variant: PropTypes.oneOf(['standard', 'outline']),
+
+  /**
+   * If the button should show loading
+   */
+  loading: PropTypes.bool,
 }
 
 export default Button;

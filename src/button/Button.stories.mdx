@@ -16,7 +16,7 @@ Buttons for user to interact with
   <Story name="Example" decorators={[withKnobs]}>
     <Button
       onClick={action('clicked')}
-      color={select('Type', [
+      color={select('Color', [
         'primary',
         'secondary',
         'success',
@@ -26,9 +26,13 @@ Buttons for user to interact with
         'light',
         'dark',
       ])}
-      variant={select('Type', [
+      variant={select('Variant', [
         'standard',
         'outline',
+      ])}
+      loading={select('Loading', [
+        false,
+        true,
       ])}
     >
       Button
