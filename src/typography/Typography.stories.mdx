@@ -1,4 +1,4 @@
-import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 
 import H1 from './H1';
 import H2 from './H2';
@@ -34,3 +34,19 @@ All the typography examples
   </div>
 </Story>
 
+<Props of={Text} />
+
+## Different variant of text
+
+<Story name="Variant">
+  <div>
+    <Text color="primary">This is primary text</Text>
+    <Text color="secondary">This is secondary text</Text>
+    <Text color="success">This is success text</Text>
+    <Text color="danger">This is danger text</Text>
+    <Text color="warning">This is warning text</Text>
+    <Text color="info">This is info text</Text>
+    <Text color="light">This is light text</Text>
+    <Text color="dark">This is dark text</Text>
+  </div>
+</Story>
