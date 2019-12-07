@@ -2,30 +2,35 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import { Color } from '../color';
+import { getColor } from '../color';
 import { Text } from '../typography';
-
-const Container = styled.div`
-  display: flex;
-  flex: 1;
-  border-radius: 0.5rem;
-  border: 1px solid ${Color.light};
-`
+import { Column } from '../layout';
+import { transparentize } from 'polished';
 
 const StyledInput = styled.input`
   display: flex;
   flex: 1;
   padding: 1rem;
-  border: 0;
   font-size: 1rem;
+  background-color: ${({ error }) => error ? transparentize(0.9, getColor('danger')) : 'transparent'};
+  border: 1px solid ${({ error }) => error ? getColor('danger') : getColor('light')};
+  border-radius: 0.5em;
+
+  :focus {
+    border: 1px solid ${({ error }) => error ? getColor('danger') : getColor('secondary')};
+  }
 `
 
 const Input = ({ error, ...props }) => (
-  <Container>
-    <StyledInput {...props} />
-    {error && (<Text variant="danger">{error}</Text>)}
-  </Container>
+  <Column>
+    <StyledInput {...props} error={error} />
+    {error && (<Text color="danger">{error}</Text>)}
+  </Column>
 )
+
+Input.defaultProps = {
+  error: '',
+}
 
 Input.propTypes = {
   /**
