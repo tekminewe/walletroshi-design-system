@@ -2,35 +2,26 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { Color } from '../color';
+import { getColor } from '../color';
 
 const StyledText = styled.p`
   font-size: 1rem;
   color: ${({ color }) => color};
 `
 
-const Text = ({ children, variant, ...props }) => (
-  <StyledText {...props} color={Color[variant]}>{children}</StyledText>
+const Text = ({ children, color, ...props }) => (
+  <StyledText {...props} color={getColor(color)}>{children}</StyledText>
 );
 
 Text.defaultProps = {
-  variant: 'dark',
+  color: 'dark',
 }
 
 Text.propTypes = {
   /**
-   * Variant color of the text
+   * Color of the text
    */
-  variant: PropTypes.oneOf([
-    'primary',
-    'secondary',
-    'success',
-    'danger',
-    'warning',
-    'info',
-    'light',
-    'dark',
-  ]),
+  color: PropTypes.string,
 }
 
 export default Text;

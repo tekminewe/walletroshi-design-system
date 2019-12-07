@@ -1,35 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Color } from '../color';
+import { getColor } from '../color';
 
 const StyledH2 = styled.h2`
   font-size: 2.25rem;
   color: ${({ color }) => color};
 `
 
-const H2 = ({ children, variant, ...props }) => (
-  <StyledH2 {...props} color={Color[variant]}>{children}</StyledH2>
+const H2 = ({ children, color, ...props }) => (
+  <StyledH2 {...props} color={getColor(color)}>{children}</StyledH2>
 );
 
 H2.defaultProps = {
-  variant: 'dark',
+  color: 'dark',
 }
 
 H2.propTypes = {
   /**
-   * Variant color of the heading 1
+   * Color of the text
    */
-  variant: PropTypes.oneOf([
-    'primary',
-    'secondary',
-    'success',
-    'danger',
-    'warning',
-    'info',
-    'light',
-    'dark',
-  ]),
+  color: PropTypes.string,
 }
 
 export default H2;

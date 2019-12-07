@@ -8,3 +8,5 @@ export const Color = {
   light: '#e0e0e0',
   dark: '#424242',
 }
+
+export const getColor = (color) => Color[color] || color;

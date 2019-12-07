@@ -3,40 +3,45 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { shade } from 'polished';
 
-import { Color } from '../color';
+import { getColor } from '../color';
 import { Text } from '../typography';
-
-const getColors = (color) => {
-  return Color[color];
-}
 
 const StyledButton = styled.button`
   display: flex;
   flex: 1;
   justify-content: center;
-  background-color: ${({ color, outline }) => outline ? 'white' : getColors(color)};
+  background-color: ${({ color, outline }) => outline ? 'white' : getColor(color)};
   border-radius: 0.5rem;
-  border: ${({ color, outline }) => outline ? `1px solid ${getColors(color)}` : '0'};
-  color: ${({ color, outline }) => outline ? getColors(color) : 'white'};
+  border: ${({ color, outline }) => outline ? `1px solid ${getColor(color)}` : '0'};
   cursor: pointer;
   padding: 0px 2rem;
   transition: 0.5s;
+
+  p {
+    color: ${({ color, outline }) => outline ? getColor(color) : 'white'};
+  }
 
   :focus {
     outline: none !important;
   }
 
   :hover {
-    background-color: ${({ color, outline }) => outline ? getColors(color) : shade(0.2, getColors(color))};
+    background-color: ${({ color, outline }) => outline ? getColor(color) : shade(0.2, getColor(color))};
+  }
+
+  :hover p {
     color: white;
   }
 `
 
-const Button = ({ children, variant, ...props }) => {
+const Button = ({ children, variant, color, ...props }) => {
+  const isOutline = variant === 'outline';
+
   return (
     <StyledButton
       {...props}
-      outline={variant === 'outline'}
+      color={color}
+      outline={isOutline}
     >
       <Text>{children}</Text>
     </StyledButton>
