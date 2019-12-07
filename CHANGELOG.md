@@ -1,3 +1,15 @@
+# v0.3.6 (Sat Dec 07 2019)
+
+#### 🐛  Bug Fix
+
+- Add `color` props to all typography [#31](https://github.com/tekminewe/walletroshi-design-system/pull/31) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.5 (Thu Dec 05 2019)
 
 #### 🐛  Bug Fix
