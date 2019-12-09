@@ -106,7 +106,7 @@ Ellipsis.propTypes = {
   /**
    * Size of the dot
    */
-  size: PropTypes.oneOfType([
+  size: PropTypes.oneOf([
     'small',
     'regular',
     'large',

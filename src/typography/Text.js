@@ -6,6 +6,7 @@ import { getColor } from '../color';
 
 const StyledText = styled.p`
   font-size: 1rem;
+  line-height: 1.5rem;
   color: ${({ color }) => color};
 `
 
