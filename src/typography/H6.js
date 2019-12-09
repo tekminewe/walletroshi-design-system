@@ -5,6 +5,7 @@ import { getColor } from '../color';
 
 const StyledH6 = styled.h6`
   font-size: 1.25rem;
+  line-height: 1.75rem;
   color: ${({ color }) => color};
 `
 
