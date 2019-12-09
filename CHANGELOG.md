@@ -1,3 +1,15 @@
+# v0.3.9 (Mon Dec 09 2019)
+
+#### 🐛  Bug Fix
+
+- Enhance typography [#34](https://github.com/tekminewe/walletroshi-design-system/pull/34) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.8 (Sat Dec 07 2019)
 
 #### 🐛  Bug Fix
