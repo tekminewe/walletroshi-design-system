@@ -1,3 +1,16 @@
+# v0.3.10 (Tue Dec 10 2019)
+
+#### 🐛  Bug Fix
+
+- Set Text font-weight to 500 [#36](https://github.com/tekminewe/walletroshi-design-system/pull/36) ([@tekminewe](https://github.com/tekminewe))
+- Set Navbar.Item color to dark [#35](https://github.com/tekminewe/walletroshi-design-system/pull/35) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.9 (Mon Dec 09 2019)
 
 #### 🐛  Bug Fix
