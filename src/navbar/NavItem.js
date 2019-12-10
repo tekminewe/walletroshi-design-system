@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import { getColor } from '../color';
 
 const StyledNavItem = styled.a`
   height: 80px;
+  color: ${getColor('dark')}
   cursor: pointer;
   display: flex;
   align-items: center;
