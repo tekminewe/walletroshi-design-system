@@ -1,3 +1,15 @@
+# v0.3.12 (Wed Dec 11 2019)
+
+#### 🐛  Bug Fix
+
+- Add Separator component [#37](https://github.com/tekminewe/walletroshi-design-system/pull/37) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.10 (Tue Dec 10 2019)
 
 #### 🐛  Bug Fix
