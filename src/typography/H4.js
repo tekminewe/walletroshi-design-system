@@ -7,6 +7,8 @@ const StyledH4 = styled.h4`
   font-size: 1.75rem;
   line-height: 2.25rem;
   color: ${({ color }) => color};
+  margin: 0;
+  padding: 0;
 `
 
 const H4 = ({ children, color, ...props }) => (

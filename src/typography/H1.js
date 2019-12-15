@@ -7,6 +7,8 @@ const StyledH1 = styled.h1`
   font-size: 2.5rem;
   line-height: 3rem;
   color: ${({ color }) => color};
+  margin: 0;
+  padding: 0;
 `
 
 const H1 = ({ children, color, ...props }) => (
