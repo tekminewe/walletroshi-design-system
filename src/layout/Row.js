@@ -5,6 +5,7 @@ const StyledRow = styled.div`
   display: flex;
   flex: 1;
   flex-direction: row;
+  align-items: center;
 `
 
 const Row = ({ children, ...props }) => (
