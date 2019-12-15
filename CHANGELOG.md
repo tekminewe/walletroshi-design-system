@@ -1,3 +1,15 @@
+# v0.3.14 (Sun Dec 15 2019)
+
+#### 🐛  Bug Fix
+
+- Center for Row and Column [#39](https://github.com/tekminewe/walletroshi-design-system/pull/39) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.13 (Sun Dec 15 2019)
 
 #### 🐛  Bug Fix
