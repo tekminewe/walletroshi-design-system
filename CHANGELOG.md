@@ -1,3 +1,15 @@
+# v0.3.13 (Sun Dec 15 2019)
+
+#### 🐛  Bug Fix
+
+- Remove typography padding margin [#38](https://github.com/tekminewe/walletroshi-design-system/pull/38) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.12 (Wed Dec 11 2019)
 
 #### 🐛  Bug Fix
