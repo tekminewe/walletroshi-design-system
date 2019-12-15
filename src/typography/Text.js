@@ -9,6 +9,8 @@ const StyledText = styled.p`
   font-weight: 500;
   line-height: 1.5rem;
   color: ${({ color }) => color};
+  margin: 0;
+  padding: 0;
 `
 
 const Text = ({ children, color, ...props }) => (
