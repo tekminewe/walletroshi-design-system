@@ -15,7 +15,7 @@ const StyledButton = styled.button`
   border-radius: 0.5rem;
   border: ${({ color, outline }) => outline ? `1px solid ${getColor(color)}` : '0'};
   cursor: pointer;
-  padding: 0px 2rem;
+  padding: 1rem 2rem;
   transition: 0.5s;
 
   p {
