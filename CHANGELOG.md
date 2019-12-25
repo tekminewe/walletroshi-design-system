@@ -1,3 +1,15 @@
+# v0.3.17 (Wed Dec 25 2019)
+
+#### 🐛  Bug Fix
+
+- Fix Input width [#42](https://github.com/tekminewe/walletroshi-design-system/pull/42) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.16 (Wed Dec 25 2019)
 
 #### 🐛  Bug Fix
