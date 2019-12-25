@@ -1,3 +1,15 @@
+# v0.3.16 (Wed Dec 25 2019)
+
+#### 🐛  Bug Fix
+
+- Set button padding vertical to 1 rem [#41](https://github.com/tekminewe/walletroshi-design-system/pull/41) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.15 (Wed Dec 25 2019)
 
 #### 🐛  Bug Fix
