@@ -1,3 +1,15 @@
+# v0.3.15 (Wed Dec 25 2019)
+
+#### 🐛  Bug Fix
+
+- Add full width to Separator [#40](https://github.com/tekminewe/walletroshi-design-system/pull/40) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.14 (Sun Dec 15 2019)
 
 #### 🐛  Bug Fix
