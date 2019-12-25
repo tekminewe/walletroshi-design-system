@@ -21,11 +21,15 @@ const StyledInput = styled.input`
   }
 `
 
+const InputContainer = styled(Column)`
+  align-items: stretch;
+`
+
 const Input = ({ error, ...props }) => (
-  <Column>
+  <InputContainer>
     <StyledInput {...props} error={error} />
     {error && (<Text color="danger">{error}</Text>)}
-  </Column>
+  </InputContainer>
 )
 
 Input.defaultProps = {
