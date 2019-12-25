@@ -1,6 +1,6 @@
 {
   "name": "walletroshi-design-system",
-  "version": "0.3.14",
+  "version": "0.3.15",
   "description": "Wallet Roshi's design system",
   "main": "dist/index.js",
   "files": [
