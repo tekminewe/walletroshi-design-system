@@ -5,6 +5,7 @@ import H4 from './H4';
 import H5 from './H5';
 import H6 from './H6';
 import Text from './Text';
+import SmallText from './SmallText';
 
 export {
   H1,
@@ -14,4 +15,5 @@ export {
   H5,
   H6,
   Text,
+  SmallText,
 }
