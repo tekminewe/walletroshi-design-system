@@ -1,3 +1,15 @@
+# v0.3.19 (Tue Jan 21 2020)
+
+#### 🐛  Bug Fix
+
+- Fix Badge is not found [#45](https://github.com/tekminewe/walletroshi-design-system/pull/45) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.18 (Tue Jan 21 2020)
 
 #### 🐛  Bug Fix
