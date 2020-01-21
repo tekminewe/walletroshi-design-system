@@ -1,3 +1,16 @@
+# v0.3.18 (Tue Jan 21 2020)
+
+#### 🐛  Bug Fix
+
+- Add SmallText and Badge [#44](https://github.com/tekminewe/walletroshi-design-system/pull/44) ([@tekminewe](https://github.com/tekminewe))
+- Upgrade storybook to 5.3.7 [#43](https://github.com/tekminewe/walletroshi-design-system/pull/43) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.17 (Wed Dec 25 2019)
 
 #### 🐛  Bug Fix
