@@ -11,9 +11,9 @@ const StyledBadge = styled(SmallText)`
   border-radius: 10rem;
 `;
 
-const Badge = ({ children, backgroundColor }) => {
+const Badge = ({ children, backgroundColor, ...props }) => {
   return (
-    <StyledBadge backgroundColor={backgroundColor} color="white">{children}</StyledBadge>
+    <StyledBadge backgroundColor={backgroundColor} color="white" {...props}>{children}</StyledBadge>
   )
 };
 
