@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { shade } from 'polished';
 
-import { getColor } from '../color';
+import { getColor, Color } from '../color';
 import { Text } from '../typography';
 import { Ellipsis } from '../loading';
 
@@ -58,7 +58,7 @@ const Button = ({ children, variant, color, loading, ...props }) => {
 };
 
 Button.defaultProps = {
-  color: 'primary',
+  color: Color.primary,
   onClick: null,
   variant: 'standard',
 }
