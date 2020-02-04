@@ -1,3 +1,15 @@
+# v0.3.21 (Tue Feb 04 2020)
+
+#### 🐛  Bug Fix
+
+- Add Navbar.Logo [#47](https://github.com/tekminewe/walletroshi-design-system/pull/47) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.20 (Tue Jan 21 2020)
 
 #### 🐛  Bug Fix
