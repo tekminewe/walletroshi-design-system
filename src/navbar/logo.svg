@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #f50057;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: red;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="146.688" y="275.531" width="727.062" height="492.469" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNzI3LjA2MiIgaGVpZ2h0PSI0OTIuNDY5IiB2aWV3Qm94PSIwIDAgNzI3LjA2MiA0OTIuNDY5Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjM2My41MzEiIHkxPSI0OTIuNDY5IiB4Mj0iMzYzLjUzMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM5NjAyMzciLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZjUwMDU3Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI3MjcuMDYyIiBoZWlnaHQ9IjQ5Mi40NjkiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Logo" class="cls-1">
+    <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-2" d="M183.1,281H366.388c27.81,0,57.813,21.98,67.013,49.093l131.94,388.814c9.2,27.113-5.886,49.093-33.7,49.093H348.355c-27.81,0-57.813-21.98-67.014-49.093L149.4,330.093C140.2,302.98,155.287,281,183.1,281Z"/>
+    <path id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-3" d="M863.71,285.462c9.586,4.91,12.9,17.6,7.4,28.335L648.4,748.555c-5.5,10.739-17.731,15.465-27.316,10.555s-12.9-17.6-7.395-28.335L836.4,296.016C841.9,285.277,854.125,280.552,863.71,285.462Z"/>
+    <path id="Rounded_Rectangle_2-2" data-name="Rounded Rectangle 2" class="cls-3" d="M761.567,281.181c9.533,5.011,13.882,15.5,9.714,23.431L602.547,625.642c-4.168,7.93-15.275,10.3-24.808,5.286s-13.882-15.5-9.714-23.431l168.734-321.03C740.927,278.537,752.034,276.171,761.567,281.181Z"/>
+    <path id="Rounded_Rectangle_2-3" data-name="Rounded Rectangle 2" class="cls-3" d="M651.135,279.323c9.5,5.081,15,13.307,12.286,18.374L553.672,502.826c-2.711,5.067-12.606,5.055-22.1-.025s-15-13.307-12.286-18.374L629.033,279.3C631.744,274.232,641.639,274.243,651.135,279.323Z"/>
+  </g>
+</svg>

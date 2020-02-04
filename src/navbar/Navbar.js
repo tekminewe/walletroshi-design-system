@@ -1,9 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import NavItem from './NavItem';
-import NavTitle from './NavTitle';
+import NavItem from './Item';
+import NavTitle from './Title';
 import Nav from './Nav';
+import Logo from './Logo';
+import Brand from './Brand';
 
 const StyledNavbar = styled.nav`
   margin: 0;
@@ -26,5 +28,7 @@ const Navbar = ({ children }) => {
 Navbar.Item = NavItem;
 Navbar.Title = NavTitle;
 Navbar.Nav = Nav;
+Navbar.Logo = Logo;
+Navbar.Brand = Brand;
 
 export default Navbar;
