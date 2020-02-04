@@ -1,5 +1,6 @@
 import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import Navbar from './Navbar';
+import logo from './logo.svg';
 
 <Meta title="Wallet Roshi Design System | Navbar" component={Navbar} />
 
@@ -8,7 +9,10 @@ import Navbar from './Navbar';
 <Preview withToolbar>
   <Story name="Example">
     <Navbar>
-      <Navbar.Title>Wallet Roshi</Navbar.Title>
+      <Navbar.Brand>
+        <Navbar.Logo src={logo} />
+        <Navbar.Title>Wallet Roshi</Navbar.Title>
+      </Navbar.Brand>
       <Navbar.Nav>
         <Navbar.Item>Sign up</Navbar.Item>
         <Navbar.Item>Log in</Navbar.Item>
