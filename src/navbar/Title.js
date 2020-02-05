@@ -12,9 +12,9 @@ const StyledNavTitle = styled(NavItem)`
   }
 `
 
-const NavTitle = ({ children }, ref) => {
+const NavTitle = ({ children, ...props }, ref) => {
   return (
-    <StyledNavTitle ref={ref}>
+    <StyledNavTitle ref={ref} {...props}>
       {children}
     </StyledNavTitle>
   )
