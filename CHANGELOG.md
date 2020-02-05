@@ -1,3 +1,15 @@
+# v0.3.23 (Wed Feb 05 2020)
+
+#### 🐛  Bug Fix
+
+- Fix props is not passing into child [#49](https://github.com/tekminewe/walletroshi-design-system/pull/49) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.22 (Wed Feb 05 2020)
 
 #### 🐛  Bug Fix
