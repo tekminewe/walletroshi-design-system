@@ -11,8 +11,8 @@ const StyledBrand = styled.div`
   }
 `
 
-const Brand = ({ children }, ref) => (
-  <StyledBrand ref={ref}>
+const Brand = ({ children, ...props }, ref) => (
+  <StyledBrand ref={ref} {...props}>
     {children}
   </StyledBrand>
 );

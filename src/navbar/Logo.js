@@ -12,11 +12,14 @@ const Logo = (props, ref) => (
   <StyledLogo ref={ref} {...props} />
 );
 
-Logo.propTypes = {
+const ForwardedLogo = React.forwardRef(Logo);
+
+ForwardedLogo.propTypes = {
   /**
    * Source of the image
    */
   src: PropTypes.string.isRequired,
 }
 
-export default React.forwardRef(Logo);
+
+export default ForwardedLogo;
