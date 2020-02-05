@@ -1,3 +1,15 @@
+# v0.3.22 (Wed Feb 05 2020)
+
+#### 🐛  Bug Fix
+
+- Forward ref for navbar components [#48](https://github.com/tekminewe/walletroshi-design-system/pull/48) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.21 (Tue Feb 04 2020)
 
 #### 🐛  Bug Fix
