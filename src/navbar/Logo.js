@@ -8,8 +8,8 @@ const StyledLogo = styled.img`
   height: 50px;
 `
 
-const Logo = (props) => (
-  <StyledLogo {...props} />
+const Logo = (props, ref) => (
+  <StyledLogo ref={ref} {...props} />
 );
 
 Logo.propTypes = {
@@ -19,4 +19,4 @@ Logo.propTypes = {
   src: PropTypes.string.isRequired,
 }
 
-export default Logo;
+export default React.forwardRef(Logo);

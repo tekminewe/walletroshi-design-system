@@ -11,10 +11,10 @@ const StyledBrand = styled.div`
   }
 `
 
-const Brand = ({ children }) => (
-  <StyledBrand>
+const Brand = ({ children }, ref) => (
+  <StyledBrand ref={ref}>
     {children}
   </StyledBrand>
 );
 
-export default Brand;
+export default React.forwardRef(Brand);

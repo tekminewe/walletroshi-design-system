@@ -12,12 +12,12 @@ const StyledNavTitle = styled(NavItem)`
   }
 `
 
-const NavTitle = ({ children }) => {
+const NavTitle = ({ children }, ref) => {
   return (
-    <StyledNavTitle>
+    <StyledNavTitle ref={ref}>
       {children}
     </StyledNavTitle>
   )
 }
 
-export default NavTitle;
+export default React.forwardRef(NavTitle);
