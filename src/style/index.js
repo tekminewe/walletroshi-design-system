@@ -26,6 +26,10 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
+  * {
+    box-sizing: border-box;
+  }
+
   input:focus,
   select:focus,
   textarea:focus,
