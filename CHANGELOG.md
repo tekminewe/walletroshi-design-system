@@ -1,3 +1,15 @@
+# v0.3.24 (Sat Feb 08 2020)
+
+#### 🐛  Bug Fix
+
+- Use border-box for box-sizing [#50](https://github.com/tekminewe/walletroshi-design-system/pull/50) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.23 (Wed Feb 05 2020)
 
 #### 🐛  Bug Fix
