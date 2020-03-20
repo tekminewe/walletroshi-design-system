@@ -25,22 +25,27 @@ const InputContainer = styled(Column)`
   align-items: stretch;
 `
 
-const Input = ({ error, ...props }) => (
+const TextInput = React.forwardRef(({ error, ...props }, ref) => (
   <InputContainer>
-    <StyledInput {...props} error={error} />
+    <StyledInput ref={ref} {...props} />
     {error && (<Text color="danger">{error}</Text>)}
   </InputContainer>
-)
+))
 
-Input.defaultProps = {
+TextInput.defaultProps = {
   error: '',
 }
 
-Input.propTypes = {
+TextInput.propTypes = {
+  /**
+   * Value of the input
+   */
+  value: PropTypes.string,
+
   /**
    * Error message of the input
    */
   error: PropTypes.string,
 }
 
-export default Input;
+export default TextInput;

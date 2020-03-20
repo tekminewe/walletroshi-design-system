@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Content from './Content';
+import Content from './content';
 
 const StyledModal = styled.div`
   display: ${({ visible }) => visible ? 'block' : 'none'};

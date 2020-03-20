@@ -1,7 +1,9 @@
-import Input from './Input';
-import Form from './Form';
+import TextInput from './text_input'
+import Form from './form'
+import Checkbox from './checkbox'
 
 export {
-  Input,
+  TextInput,
   Form,
+  Checkbox
 }
