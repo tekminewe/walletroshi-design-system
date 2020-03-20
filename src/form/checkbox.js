@@ -18,6 +18,10 @@ const Checkbox = React.forwardRef(({ label, ...props }, ref) => (
   </StyledLabel>
 ))
 
+Checkbox.defaultProps = {
+  label: '',
+}
+
 Checkbox.propTypes = {
   /**
    * Label of the checkbox
