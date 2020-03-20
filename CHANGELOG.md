@@ -1,3 +1,15 @@
+# v0.4.0 (Fri Mar 20 2020)
+
+#### 🚀  Enhancement
+
+- [BREAKING CHANGES] Update storybook [#51](https://github.com/tekminewe/walletroshi-design-system/pull/51) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.3.24 (Sat Feb 08 2020)
 
 #### 🐛  Bug Fix
