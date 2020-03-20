@@ -1,5 +1,5 @@
 import TextInput from './text_input'
-import Form from './Form'
+import Form from './form'
 import Checkbox from './checkbox'
 
 export {

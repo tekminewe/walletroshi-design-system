@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import FormHeader from './FormHeader';
+import FormHeader from './form_header';
 
 const Form = ({ children, title, subtitle, ...props }) => (
   <form {...props}>
