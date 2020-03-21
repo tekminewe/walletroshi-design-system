@@ -20,6 +20,9 @@ const Checkbox = React.forwardRef(({ label, ...props }, ref) => (
 
 Checkbox.defaultProps = {
   label: '',
+  checked: false,
+  onChange: () => {},
+  name: ''
 }
 
 Checkbox.propTypes = {
@@ -31,12 +34,17 @@ Checkbox.propTypes = {
   /**
    * Checked status of the checkbox
    */
-  checked: PropTypes.bool.isRequired,
+  checked: PropTypes.bool,
 
   /**
    * Callback when the checked value is changed
    */
-  onChange: PropTypes.func.isRequired
+  onChange: PropTypes.func,
+
+  /**
+   * Name of the input
+   */
+  name: PropTypes.string,
 }
 
 
