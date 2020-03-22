@@ -1,3 +1,16 @@
+# v0.4.1 (Sun Mar 22 2020)
+
+#### 🐛  Bug Fix
+
+- Fix undefined file [#53](https://github.com/tekminewe/walletroshi-design-system/pull/53) ([@tekmin](https://github.com/tekmin))
+- Add padding to checkbox and input [#52](https://github.com/tekminewe/walletroshi-design-system/pull/52) ([@tekmin](https://github.com/tekmin))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekmin](https://github.com/tekmin))
+
+---
+
 # v0.4.0 (Fri Mar 20 2020)
 
 #### 🚀  Enhancement
