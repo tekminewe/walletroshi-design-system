@@ -16,4 +16,8 @@ export const StorybookStyle = createGlobalStyle`
     display: flex;
     align-items: flex-end;
   }
+
+  .sb-show-main {
+    margin: 1rem;
+  }
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Modal from './modal';
-import Card from '../card/Card';
+import Card from '../card/card';
 
 export default {
   title: 'Wallet Roshi Design System | Modal',

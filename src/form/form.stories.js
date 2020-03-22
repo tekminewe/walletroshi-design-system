@@ -1,27 +1,16 @@
-import React from 'react'
-import { withKnobs, boolean, text } from '@storybook/addon-knobs'
-import { action } from '@storybook/addon-actions';
+import { withKnobs } from '@storybook/addon-knobs'
 
-import Checkbox from './checkbox'
-import TextInput from './text_input'
+import CompleteFormStory from './stories/complete_form'
+import CheckboxStory from './stories/checkbox'
+import TextInputStory from './stories/text_input'
 
 export default {
   title: 'Wallet Roshi Design System | Form',
   decorators: [withKnobs]
 }
 
-export const checkbox = () => (
-  <Checkbox
-    label={text('Label', 'Have you exercise today?')}
-    checked={boolean('Checked', false)}
-    onChange={action('value-change')}
-  />
-);
+export const completeForm = CompleteFormStory
 
-export const textInput = () => (
-  <TextInput
-    placeholder={text('Placeholder', 'Please enter a value')}
-    value={text('Value', '')}
-    error={text('Error', '')}
-  />
-);
+export const checkbox = CheckboxStory
+
+export const textInput = TextInputStory

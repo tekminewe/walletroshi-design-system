@@ -7,9 +7,9 @@ const StyledCard = styled.div`
   display: flex;
   flex-direction: column;
   background-color: white;
-  padding: 1rem;
   border: 1px solid ${Color.light};
   border-radius: 0.5rem;
+  padding: 1rem;
 `
 
 const Card = ({ children, ...props }) => (

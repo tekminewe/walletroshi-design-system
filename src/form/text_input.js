@@ -23,6 +23,7 @@ const StyledInput = styled.input`
 
 const InputContainer = styled(Column)`
   align-items: stretch;
+  margin: 1rem 0;
 `
 
 const TextInput = React.forwardRef(({ error, ...props }, ref) => (
@@ -34,6 +35,9 @@ const TextInput = React.forwardRef(({ error, ...props }, ref) => (
 
 TextInput.defaultProps = {
   error: '',
+  value: '',
+  onChange: () => {},
+  name: ''
 }
 
 TextInput.propTypes = {
@@ -46,6 +50,16 @@ TextInput.propTypes = {
    * Error message of the input
    */
   error: PropTypes.string,
+
+  /**
+   * Callback when the checked value is changed
+   */
+  onChange: PropTypes.func,
+
+  /**
+   * Name of the input
+   */
+  name: PropTypes.string,
 }
 
 export default TextInput;

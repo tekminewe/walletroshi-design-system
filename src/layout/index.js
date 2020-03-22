@@ -1,13 +1,15 @@
-import Center from './Center';
-import Column from './Column';
-import Row from './Row';
-import Spacer from './Spacer';
-import Separator from './Separator';
+import Center from './center'
+import Column from './column'
+import Row from './row'
+import Space from './space'
+import Separator from './separator'
+import Margin from './margin'
 
 export {
   Center,
   Column,
   Row,
-  Spacer,
+  Space,
   Separator,
+  Margin
 }
