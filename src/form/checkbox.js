@@ -2,13 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const StyledCheckbox = styled.input.attrs({
-  type: 'checkbox'
-})``
+import RoundCheckbox from './round_checkbox'
+
+const StyledCheckbox = styled(RoundCheckbox)`
+  margin-right: 1rem;
+`
 
 const StyledLabel = styled.label`
   display: flex;
   align-items: center;
+  margin: 1rem 0rem;
 `
 
 const Checkbox = React.forwardRef(({ label, ...props }, ref) => (
@@ -46,6 +49,5 @@ Checkbox.propTypes = {
    */
   name: PropTypes.string,
 }
-
 
 export default Checkbox

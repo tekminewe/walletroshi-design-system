@@ -1,5 +1,5 @@
 import React from 'react';
-import Center from '../layout/Center';
+import Center from '../layout/center';
 
 const Content = ({ children }) => (
   <Center>
