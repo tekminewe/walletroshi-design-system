@@ -1,3 +1,15 @@
+# v0.4.2 (Wed Apr 15 2020)
+
+#### 🐛  Bug Fix
+
+- Add button stories [#54](https://github.com/tekminewe/walletroshi-design-system/pull/54) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.4.1 (Sun Mar 22 2020)
 
 #### 🐛  Bug Fix
