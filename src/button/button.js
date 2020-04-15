@@ -1,11 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import { shade } from 'polished';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+import { shade } from 'polished'
 
-import { getColor, Color } from '../color';
-import { Text } from '../typography';
-import { Ellipsis } from '../loading';
+import { getColor, Color } from '../color'
+import { Text } from '../typography'
 
 const StyledButton = styled.button`
   display: flex;
@@ -15,7 +14,7 @@ const StyledButton = styled.button`
   border-radius: 0.5rem;
   border: ${({ color, outline }) => outline ? `1px solid ${getColor(color)}` : '0'};
   cursor: pointer;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   transition: 0.5s;
 
   p {
@@ -35,10 +34,6 @@ const StyledButton = styled.button`
   }
 `
 
-const StyledEllipsis = styled(Ellipsis)`
-  color: white;
-`
-
 const Button = ({ children, variant, color, loading, ...props }) => {
   const isOutline = variant === 'outline';
 
@@ -48,11 +43,7 @@ const Button = ({ children, variant, color, loading, ...props }) => {
       color={color}
       outline={isOutline}
     >
-      {loading ? (
-        <StyledEllipsis color={isOutline ? getColor(color) : 'white'} size="small" />
-      ) : (
-        <Text>{children}</Text>
-      )}
+      <Text>{children}</Text>
     </StyledButton>
   );
 };
@@ -78,11 +69,6 @@ Button.propTypes = {
    * Style of the button
    */
   variant: PropTypes.oneOf(['standard', 'outline']),
-
-  /**
-   * If the button should show loading
-   */
-  loading: PropTypes.bool,
 }
 
-export default Button;
+export default Button
