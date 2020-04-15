@@ -1,3 +1,15 @@
+# v0.4.3 (Wed Apr 15 2020)
+
+#### 🐛  Bug Fix
+
+- Use div for Margin component [#55](https://github.com/tekminewe/walletroshi-design-system/pull/55) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.4.2 (Wed Apr 15 2020)
 
 #### 🐛  Bug Fix
