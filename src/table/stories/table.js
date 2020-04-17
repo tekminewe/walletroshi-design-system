@@ -55,8 +55,28 @@ const TableStory = () => {
     )
   }
 
+  const renderHeader = () => {
+    return (
+      <Table.Row>
+        <Table.Header>
+          ID
+        </Table.Header>
+        <Table.Header>
+          First Name
+        </Table.Header>
+        <Table.Header>
+          Last Name
+        </Table.Header>
+        <Table.Header>
+          Age
+        </Table.Header>
+      </Table.Row>
+    )
+  }
+
   return (
     <Table
+      renderHeader={renderHeader}
       renderRow={renderRow}
       data={data}
       keyExtractor={row => row.id}
