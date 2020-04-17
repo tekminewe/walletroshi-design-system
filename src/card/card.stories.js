@@ -1,7 +1,7 @@
 import CardStory from './stories/card'
 
 export default {
-  title: 'Wallet Roshi Design System | Card',
+  title: 'Big Cheese App Design System | Card',
 }
 
 export const simple = CardStory

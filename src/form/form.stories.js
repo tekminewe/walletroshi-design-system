@@ -5,7 +5,7 @@ import CheckboxStory from './stories/checkbox'
 import TextInputStory from './stories/text_input'
 
 export default {
-  title: 'Wallet Roshi Design System | Form',
+  title: 'Big Cheese App Design System | Form',
   decorators: [withKnobs]
 }
 

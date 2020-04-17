@@ -1,7 +1,7 @@
 {
-  "name": "walletroshi-design-system",
+  "name": "@bigcheeseapp/design-system-react",
   "version": "0.4.4",
-  "description": "Wallet Roshi's design system",
+  "description": "Big Cheese App design system",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -16,7 +16,7 @@
   },
   "author": "tekminewe<ewe.tekmin@outlook.com>",
   "license": "MIT",
-  "repository": "https://github.com/tekminewe/walletroshi-design-system.git",
+  "repository": "https://github.com/tekminewe/design-system-react.git",
   "dependencies": {
     "polished": "^3.4.2",
     "prop-types": "^15.7.2",
