@@ -1,3 +1,15 @@
+# v0.4.4 (Fri Apr 17 2020)
+
+#### 🐛  Bug Fix
+
+- Add Basic Table component [#56](https://github.com/tekminewe/walletroshi-design-system/pull/56) ([@tekmin](https://github.com/tekmin))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekmin](https://github.com/tekmin))
+
+---
+
 # v0.4.3 (Wed Apr 15 2020)
 
 #### 🐛  Bug Fix
