@@ -8,14 +8,8 @@ import { getColor, Color } from '../color'
 import Body from '../typography/body'
 
 const StyledButton = styled.button`
-  display: flex;
-  flex: 1;
-  justify-content: center;
   background-color: ${({ color, outline }) => outline ? 'white' : getColor(color)};
-  border-radius: 0.5rem;
   border: ${({ color, outline }) => outline ? `1px solid ${getColor(color)}` : '0'};
-  cursor: pointer;
-  transition: 0.5s;
 
   p {
     color: ${({ color, outline }) => outline ? getColor(color) : 'white'};
@@ -42,7 +36,7 @@ const Button = ({ children, variant, color, loading, ...props }) => {
       {...props}
       color={color}
       outline={isOutline}
-      className="px-4 py-2"
+      className="px-4 py-2 rounded-lg flex justify-center duration-500 cursor-pointer"
     >
       <Body>{children}</Body>
     </StyledButton>
