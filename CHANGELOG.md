@@ -1,3 +1,22 @@
+# v0.5.0 (Sun May 17 2020)
+
+#### 🚀  Enhancement
+
+- Update README.md [#58](https://github.com/tekminewe/design-system-react/pull/58) ([@tekminewe](https://github.com/tekminewe))
+
+#### 🐛  Bug Fix
+
+- Copy file when babel build [#61](https://github.com/tekminewe/design-system-react/pull/61) ([@tekminewe](https://github.com/tekminewe))
+- Update storybook to v5.3.18 [#60](https://github.com/tekminewe/design-system-react/pull/60) ([@tekminewe](https://github.com/tekminewe))
+- Revise typography [#59](https://github.com/tekminewe/design-system-react/pull/59) ([@tekminewe](https://github.com/tekminewe))
+- Rename package to @bigcheeseapp/design-system-react [#57](https://github.com/tekminewe/design-system-react/pull/57) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.4.4 (Fri Apr 17 2020)
 
 #### 🐛  Bug Fix
