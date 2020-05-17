@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 import { getColor } from '../color';
-import { Text } from '../typography';
+import Body from '../typography/body';
 import { Column } from '../layout';
 import { transparentize } from 'polished';
 
@@ -29,7 +29,7 @@ const InputContainer = styled(Column)`
 const TextInput = React.forwardRef(({ error, ...props }, ref) => (
   <InputContainer>
     <StyledInput ref={ref} {...props} />
-    {error && (<Text color="danger">{error}</Text>)}
+    {error && (<Body color="danger">{error}</Body>)}
   </InputContainer>
 ))
 

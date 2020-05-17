@@ -3,8 +3,9 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { shade } from 'polished'
 
+import '../tailwind.generated.css';
 import { getColor, Color } from '../color'
-import { Text } from '../typography'
+import Body from '../typography/body'
 
 const StyledButton = styled.button`
   display: flex;
@@ -14,7 +15,6 @@ const StyledButton = styled.button`
   border-radius: 0.5rem;
   border: ${({ color, outline }) => outline ? `1px solid ${getColor(color)}` : '0'};
   cursor: pointer;
-  padding: 0.5rem 1rem;
   transition: 0.5s;
 
   p {
@@ -42,8 +42,9 @@ const Button = ({ children, variant, color, loading, ...props }) => {
       {...props}
       color={color}
       outline={isOutline}
+      className="px-4 py-2"
     >
-      <Text>{children}</Text>
+      <Body>{children}</Body>
     </StyledButton>
   );
 };
