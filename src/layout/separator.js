@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { getColor } from '../color';
+import { getColor } from '../theme/color';
 
 const Separator = styled.div`
   height: 1px;

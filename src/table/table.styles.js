@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { getColor } from '../color'
+import { getColor } from '../theme/color'
 
 export const Container = styled.table`
   overflow-x: auto;

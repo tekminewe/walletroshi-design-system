@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { getColor } from '../color';
+import { getColor } from '../theme/color';
 
 const StyledNavItem = styled.a`
   height: 80px;

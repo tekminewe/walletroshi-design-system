@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import NavItem from './Item';
-import { getColor, Color } from '../color';
+import { getColor, Color } from '../theme/color';
 
 const StyledNavTitle = styled(NavItem)`
   font-size: 1.5em;
