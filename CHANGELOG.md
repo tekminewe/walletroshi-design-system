@@ -1,3 +1,15 @@
+# v0.5.2-0 (Fri Jul 24 2020)
+
+#### 🚧 Prerelease
+
+- Fix color export path [#65](https://github.com/tekminewe/design-system-react/pull/65) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.5.1-0 (Fri Jul 24 2020)
 
 #### 🚧 Prerelease
