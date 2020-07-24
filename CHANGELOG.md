@@ -1,3 +1,16 @@
+# v0.5.1-0 (Fri Jul 24 2020)
+
+#### 🚧 Prerelease
+
+- Rename missing badge [#64](https://github.com/tekminewe/design-system-react/pull/64) ([@tekminewe](https://github.com/tekminewe))
+- Remove all typography [#63](https://github.com/tekminewe/design-system-react/pull/63) ([@tekminewe](https://github.com/tekminewe))
+
+#### Authors: 1
+
+- Ewe Tek Min ([@tekminewe](https://github.com/tekminewe))
+
+---
+
 # v0.5.0 (Sun May 17 2020)
 
 #### 🚀  Enhancement
