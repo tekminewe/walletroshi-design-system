@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from '../card'
-import Body from '../../typography/body'
+import Text from '../../typography/text'
 
 const CardStory = () => (
   <Card>
-    <Body>This is a card</Body>
+    <Text>This is a card</Text>
   </Card>
 )
 

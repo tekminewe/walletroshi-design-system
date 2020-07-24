@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import { shade } from 'polished'
 
 import '../tailwind.generated.css';
-import { getColor, Color } from '../color'
-import Body from '../typography/body'
+import { getColor, Color } from '../theme/color'
+import Text from '../typography/text'
 
 const StyledButton = styled.button`
   background-color: ${({ color, outline }) => outline ? 'white' : getColor(color)};
@@ -38,7 +38,7 @@ const Button = ({ children, variant, color, loading, ...props }) => {
       outline={isOutline}
       className="px-4 py-2 rounded-lg flex justify-center duration-500 cursor-pointer"
     >
-      <Body>{children}</Body>
+      <Text>{children}</Text>
     </StyledButton>
   );
 };

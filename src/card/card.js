@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Color } from '../color';
+import { Color } from '../theme/color';
 
 const StyledCard = styled.div`
   display: flex;

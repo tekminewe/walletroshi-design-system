@@ -1,16 +1,13 @@
 import React from 'react'
 
-import Body from '../body'
-import Title from '../title'
-import Subtitle from '../subtitle'
-import Hint from '../hint'
+import Text from '../text'
 
 const OverviewStory = () => (
   <div>
-    <Title>This is a title</Title>
-    <Subtitle>This is a subtitle</Subtitle>
-    <Body>This is a body</Body>
-    <Hint>This is a hint</Hint>
+    <Text size="xl">This is EXTRA LARGE text</Text>
+    <Text size="lg">This is LARGE text</Text>
+    <Text>This is BASE text</Text>
+    <Text size="sm">This is SMALL text</Text>
   </div>
 )
 

@@ -1,19 +1,25 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import { Color, getColor } from '../color';
-import SmallText from '../typography/SmallText';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+import classnames from 'classnames'
 
-const StyledBadge = styled(SmallText)`
+import '../tailwind.generated.css'
+import { Color, getColor } from '../theme/color'
+import Text from '../typography/text'
+
+const StyledBadge = styled(Text)`
   background-color: ${({ backgroundColor }) => getColor(backgroundColor)};
-  padding-right: 1rem;
-  padding-left: 1rem;
-  border-radius: 10rem;
 `;
 
-const Badge = ({ children, backgroundColor, ...props }) => {
+const Badge = ({ children, backgroundColor, className, ...props }) => {
+  const classNames = classnames(className, 'px-4 rounded-full')
   return (
-    <StyledBadge backgroundColor={backgroundColor} color="white" {...props}>{children}</StyledBadge>
+    <StyledBadge
+      backgroundColor={backgroundColor}
+      color="white"
+      {...props}
+      className={classNames}
+    >{children}</StyledBadge>
   )
 };
 
